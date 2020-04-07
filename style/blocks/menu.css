@@ -39,12 +39,12 @@
 .menu__item--icon--feed .menu__link:before{
     width: 20px; height: 18px;
     transition: all .1s;
-    background: url('./image/icons_menu.png') -47px -10px;
+    background: url('../../image/icons_menu.png') -47px -10px;
 }
 .menu__item--icon--team .menu__link:before{
     width: 23px; height: 18px;
     transition: all .1s;
-    background: url('./image/icons_menu.png') -87px -10px;
+    background: url('../../image/icons_menu.png') -87px -10px;
 }
 .menu__item--icon--main .menu__link:hover:before{
     filter: brightness(0);

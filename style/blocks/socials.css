@@ -41,19 +41,19 @@
 }
 .socials__link--vk:before {
     width: 12px; height: 7px;
-    background: url('./image/socials.png') -10px -39px;
+    background: url('../../image/socials.png') -10px -39px;
 }
 .socials__link--fb:before {
     width: 6px; height: 13px;
-    background: url('./image/socials.png') -73px -10px;
+    background: url('../../image/socials.png') -73px -10px;
 }
 .socials__link--twitter:before {
     width: 11px; height: 9px;
-    background: url('./image/socials.png') -42px -10px;
+    background: url('../../image/socials.png') -42px -10px;
 }
 .socials__link--mail:before {
     width: 12px; height: 9px;
-    background: url('./image/socials.png') -10px -10px;
+    background: url('../../image/socials.png') -10px -10px;
 }
 .socials__link:hover {
     background-color: #fff;
