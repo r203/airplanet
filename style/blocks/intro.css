@@ -43,13 +43,13 @@
     color: #fff;
 }   
 .intro__btn:hover:after {
-    background-image: url(/image/review/send_ico.png);
+    background-image: url(../../image/review/send_ico.png);
 }
 .intro__btn:after {
     content: '';
     width: 15px;
     height: 15px;
-    background-image: url(/image/intro/main_icon.png);
+    background-image: url(../../image/intro/main_icon.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
