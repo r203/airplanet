@@ -1,0 +1,73 @@
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul,
+ol {
+  padding: 0;
+}
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul,
+ol {
+  list-style: none;
+}
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+html, body {
+    height: 100%;
+}
+html {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    overflow: hidden;
+    min-width: 1100px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper__content {
+    flex: 1;
+}
+.container {
+    width: 1160px;
+    margin: 0 auto;
+    /* position: relative; */
+}
+.container--700 {
+  display: flex;
+  width: 700px;
+  justify-content: center;
+}
+img {
+    display: block;
+    /* width: 100%; */
+    max-width: 100%;
+}
+.title {
+    font-size: 49px;
+    font-weight: bold;
+}
+input, textarea {
+  outline: none;
+}

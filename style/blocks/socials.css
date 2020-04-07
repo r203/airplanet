@@ -1,0 +1,61 @@
+
+/*социальные кнопки*/
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.socials__title {
+    font-size: 0.7778rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.socials__list {
+    display: flex;
+    text-align: left;
+}
+/* .socials__item {
+    display: inline-block;
+} */
+.socials__item:not(:last-child){
+    margin-right: 8px;
+}
+.socials__link {
+    display: inline-block;
+    position: relative;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;    
+    transition: background-color .2s;
+}
+.socials__link:before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 9px;
+    background: center center / contain no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.socials__link--vk:before {
+    width: 12px; height: 7px;
+    background: url('/image/socials.png') -10px -39px;
+}
+.socials__link--fb:before {
+    width: 6px; height: 13px;
+    background: url('/image/socials.png') -73px -10px;
+}
+.socials__link--twitter:before {
+    width: 11px; height: 9px;
+    background: url('/image/socials.png') -42px -10px;
+}
+.socials__link--mail:before {
+    width: 12px; height: 9px;
+    background: url('/image/socials.png') -10px -10px;
+}
+.socials__link:hover {
+    background-color: #fff;
+}
+/*страница отзывов*/

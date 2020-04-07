@@ -1,0 +1,41 @@
+
+/*подвал сайта*/
+.footer {
+    background: #5973b1;
+    color: #fff;
+    /* height: 76px; */
+    padding: 8px 0;
+}
+.footer__text, .footer__logo, .footer__socials {
+    /* display: inline-block;
+    width: 33%; */
+    flex: 1;
+}
+.footer__container {
+    display: flex;
+    align-items: center;
+}
+.footer__text {
+    /* padding-right: 125px; */
+    font-size: 0.7778rem;
+    font-weight: 300;
+}
+.footer__text p {
+    padding-right: 325px;
+}
+.footer__link {
+    color: inherit;
+    font-weight: bold;
+}
+.footer__logo {
+    padding: 15px 0;
+    text-align: right;
+}
+/* .footer__logo-image {
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
+.footer__socials {
+    text-align: right;
+    vertical-align: top;
+}

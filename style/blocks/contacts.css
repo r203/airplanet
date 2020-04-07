@@ -1,0 +1,27 @@
+.contacts {
+    /* position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+     */
+    font-style: normal;
+    text-align: end;
+}
+.contacts__telephone {
+    display: flex;
+    flex-direction: column;
+}
+.contacts__link {
+    color: inherit;
+    font-size: 1.222rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.contacts__tooltip {
+    display: inline-block;
+    font-size: 0.7778rem;
+    font-weight: bold;
+    color: rgba(255,255,255,.7);
+    text-decoration: underline;
+    cursor: pointer;
+}

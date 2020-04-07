@@ -1,0 +1,15 @@
+/* шапка сайта*/
+.header {
+    background: #5973b1;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 77px; */
+}
+.header__logo {
+    padding: 18px 0;
+}

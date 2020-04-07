@@ -1,0 +1,20 @@
+.infopanel {
+    margin-top: 5px;
+    margin-right:22px;
+    background-image: url(/image/review/pattern.png);
+    background-color: #5973b1;
+    margin-bottom: 29px;
+}
+.infopanel__review {
+    padding: 23px 10px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.7rem;
+    color: #fff;
+ 
+}
+.infopanel__review a {
+    font-weight: bold; 
+    font-size: 1rem;
+    color: inherit;
+}

@@ -1,0 +1,54 @@
+.contacts__shedule {
+    position: relative;
+    display: inline-block;
+}
+.contacts__tooltip-container {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    position: absolute;
+    /* width: 150px;
+    height: 80px; */
+    background-color: #fff;
+    margin-top: 20px;
+    right: 0;
+    border-radius: 5px;
+    min-width: 165px;
+    padding: 20px;
+    top: -9999px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+    opacity: 0;
+    transition: opacity .2s;
+}
+.contacts__tooltip-container:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: -43px;
+}
+.contacts__tooltip-container:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    top: -10px;
+    right: 20px;
+    transform: rotate(45deg);
+    border-top-left-radius: 5px;
+}
+.contacts__tooltip:hover .contacts__tooltip-container{
+    top:100%;
+    opacity: 1;
+}
+.contacts__tooltiptext{
+    font-size: 0.7778rem;
+    color: #000;
+    font-weight: normal;
+}
+.contacts__tooltiptext--main{
+    font-size: 0.7778rem;
+    font-weight: bold;
+    color: #5973b1;
+}

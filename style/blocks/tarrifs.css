@@ -1,0 +1,98 @@
+
+.tarrifs {
+    margin-right: 22px;
+    margin-bottom: 59px;
+}
+.tarrifs__title {
+    text-transform: uppercase;
+    margin-bottom: 28px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.tarrifs__list {
+    display: flex;
+}
+.tarrifs__item {
+    padding: 26px 24px;
+    width: 273px;
+    text-align: center;
+    vertical-align: middle;    
+    font-weight: 300;
+    border: 1px solid #e8e8ec;
+    border-radius: 5px;
+    margin-bottom: 29px;
+}
+/* .tarrifs__item:hover {
+    border-color: #e8e8ec;
+} */
+.tarrifs__icon {
+    display: inline-block;
+    margin-bottom: 31px;
+    width: 66px;
+    height: 66px;
+    background-color: #5973b1;
+    border-radius: 50%;
+    position: relative;
+}
+.tarrifs__icon:before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: center center / contain no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.tarrifs__icon--flower:before {
+    background-image: url(/image/flower.png);
+}
+.tarrifs__icon--star:before {
+    background-image: url(/image/star.png);
+}
+.tarrifs__icon--pallete:before {
+    background-image: url(/image/pallete.png);
+}
+.tarrifs__subtitle {
+    font-size: 0.6111rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.14rem;
+    margin-bottom: 20px;
+}
+.tarrifs__description {
+    display: block;
+    margin-left: 15px;
+    text-align: start;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.667rem;
+}
+.tarrifs__content-list {
+    line-height: 1.667rem;
+    text-align: left;
+    margin-bottom: 13px;
+    margin-top: 2px;
+}
+.tarrifs__content-item {
+    margin-bottom: 5px;
+}
+.tarrifs__content-item:before {
+    content: '';
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    background-color: #000;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-left: 16px;
+}
+.tarrifs__price {
+    font-size: 3rem;
+    font-weight: 400;
+}
+.tarrifs__currensy {
+    font-size: 1.889rem;
+}

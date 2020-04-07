@@ -1,0 +1,42 @@
+.review {
+    margin-bottom: 64px;
+}
+.review .content {
+    margin-bottom: 40px;
+}
+.review .title {
+    margin-bottom: 50px;
+    margin-bottom: 38px;
+}
+.review .content-list__item {
+    flex-direction: row;
+    width: auto;
+}
+.review .content-list__item:not(:last-child) {
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 19px;
+    margin-bottom: 30px;
+}
+.review .content-list__icon {
+    width: 172px;
+    height: 172px;
+    margin-right: 23px;
+    margin-bottom: 0;
+}
+.review .content-list__description{
+    width: 669px;
+}
+.review .content-list__title {
+    margin-bottom: 11px;
+}
+.review .content-list__text {
+    font-size: 1rem;
+    line-height: 30px;
+    
+}
+.review__socials {
+    margin-right: 24px;
+}
+.review__menu {
+    margin-bottom: 18px;
+}

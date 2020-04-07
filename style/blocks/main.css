@@ -1,0 +1,28 @@
+/*главное содержимое*/
+.main {
+    margin-bottom: 41px;
+}
+/* .main__content {
+    display: inline-block;
+    vertical-align: top;
+} */
+.main__container {
+    display: flex;
+    /* align-items: start; */
+}
+.main__content {
+    /* width: 880px; */
+    flex: 1;
+}
+.main--team .main__menu{
+    margin-right: 24px;
+}
+.main__partners {
+    margin-bottom: 28px;
+}
+.main--team {
+    margin-bottom: 18px;
+}
+.main--team .menu {
+    margin-bottom: 34px;
+}

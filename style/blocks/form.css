@@ -1,0 +1,160 @@
+.main--review {
+    margin-bottom: 50px;
+}
+.form__container {
+    display: flex;
+    flex: 1;
+    justify-content: start;
+    width: 766px;
+}
+.form__element {
+    flex: 1;
+}
+.form__review {
+    background-color: #f4f4f4;
+    border-radius: 2px;
+    padding: 40px 13% 47px;
+}
+.form__title {
+    margin-bottom: 17px;
+}
+.form__row {
+    display: flex;
+    margin-bottom: 16px;
+}
+.form__row:last-child {
+    margin-bottom: 0;
+}
+.form__row--al-center {
+    align-items: center;
+}
+.form__item{
+    flex: 1;
+}
+.form__item:not(:last-child){
+    margin-right: 25px;
+}
+.form__input {
+    width: 100%;
+    margin-top: 5px;
+    /* margin-bottom: 18px; */
+    border-radius: 5px;
+    padding: 15px 6px;
+}
+.form__label {
+    display: block;
+    position: relative;
+}
+.form__label, .form__input, .form__input::placeholder, .form__textarea {
+    font-size: 0.7778rem;
+}
+.form__textarea {
+    width: 100%;
+    margin-top: 7px;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+.form__textarea {
+    display: block;
+    width: 100%;
+    resize: vertical;
+}
+.form__input, .form__textarea {
+    border: 1px solid transparent;
+}
+.form__input:focus, .form__textarea:focus {
+    border-color: #5972b1;
+}
+.form__radiobutton {
+    display: flex;
+}
+.form__radio {
+    display: none;
+}
+.form__radiolabel {
+    font-size: 15px;
+}
+.form__radio:checked + .form__radiolabel, 
+.form__radio:not(:checked) + .form__radiolabel {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 18px;
+    margin-top: 9px;
+    cursor: pointer;
+}
+.form__radio:checked + .form__radiolabel {
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    color: #5972b1;
+}
+.form__radio:checked + .form__radiolabel:before, 
+.form__radio:not(:checked) + .form__radiolabel:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #cacaca;
+    background-color: #ffffff;
+    background: linear-gradient(0deg, rgba(237,237,237,1) 0%, rgba(255,255,255,1) 100%);
+    border-radius: 50%;
+}
+.form__radio:checked + .form__radiolabel:after, 
+.form__radio:not(:checked) + .form__radiolabel:after {
+    content: "";
+    position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    left: 4px;
+    top: 4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #5972b1;
+
+}
+.form__radio:checked + .form__radiolabel:after {
+    opacity: 1;
+}
+.form__radio:not(:checked) + .form__radiolabel:after {
+    opacity: 0;
+}
+.form__item--position-end {
+    text-align: end;
+}
+.form__btn-submit {
+    padding: 16px 21px;
+    background-color: #5972b1;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+    font-size: 0.6667rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: background-color .2s, color .2s;
+}
+.form__btn-submit:hover {
+    background-color: #fff;
+    color: #5972b1;
+}
+.form__btn-icon {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: bottom;
+    width: 17px;
+    height: 17px;
+        background: left center / contain no-repeat;
+    background-image: url(/image/review/send_ico.png);
+    transition: background-image .2s;
+}
+.form__btn-submit:hover .form__btn-icon{
+    background-image: url(/image/main_icon.png);
+}
